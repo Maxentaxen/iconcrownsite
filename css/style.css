@@ -28,6 +28,7 @@ h1 {
     max-width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
+    -webkit-text-stroke: 1px red;
 }
 
 
@@ -58,6 +59,7 @@ h1 {
     color: var(--textcolor);
 }
 
+
 .guilds {
     width: 100%;
     margin-bottom: 50px;
@@ -70,6 +72,7 @@ h1 {
     background-image: linear-gradient(90deg, rgba(100, 100, 100, 1), rgba(100, 100, 100, 0.8), rgba(100, 100, 100, 0.8), transparent);
 }
 
+
 .buttons {
     width: 100%;
     height: 50px;
@@ -77,6 +80,7 @@ h1 {
     justify-content: space-evenly;
     align-items: flex-end;
 }
+
 
 .minibutton {
     width: 20%;
@@ -89,6 +93,7 @@ h1 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
 
 .minibutton > a {
     text-decoration: none;
@@ -124,6 +129,7 @@ h1 {
     grid-area: ch3;
 }
 
+
 .hugoyap {
     margin: auto;
     grid-area: hj;
@@ -155,6 +161,7 @@ h1 {
     aspect-ratio: 1;
 }
 
+
 .yap {
     grid-area: sc;
     line-height: 1.3rem;
@@ -170,7 +177,6 @@ h1 {
 
 
 .joinbutton {
-
     background-color: orange;
     margin: auto;
     margin-top: 250px;
@@ -197,6 +203,7 @@ h1 {
     display: flex;
     align-items: center;
 }
+
 
 h4 {
     font-size: 3rem;
@@ -226,9 +233,4 @@ button {
 
 .prize {
     font-weight: bold;
-}
-
-
-h2 {
-    color: var(--textcolor);
 }
