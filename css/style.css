@@ -9,10 +9,11 @@
 
 html {
     scroll-behavior: smooth;
-    background-image: url(/img/bakgrunden.jpg);
+    background-image: url(/img/castle.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
