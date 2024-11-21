@@ -22,6 +22,7 @@ body {
     background-repeat: no-repeat;
     color: var(--textcolor);
     background-image: url(/img/mona\ lovisa.png);
+    width: 100vw;
 }
 
 
@@ -103,9 +104,10 @@ h1 {
 
 .content {
     height: 200vh;
+    width: 100%;
     display: grid;
-    grid-template-columns: 40%, 40%, 100px;
-    grid-template-rows: repeat(8, 250px);
+    grid-template-columns: 1fr, 1fr, 20%;
+    grid-template-rows: repeat(8, 150px);
     grid-template-areas: 
     'hj hj hj'
     'in in ch1'
@@ -150,16 +152,17 @@ h1 {
 
 
 .piccontainer {
-    background-image: linear-gradient(90deg, transparent, transparent);
     display: flex;
     justify-content: center;
+    width: auto;
+    height: auto;
 }
 
 
 .yap {
     grid-area: sc;
-    line-height: 2rem;
-    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
     padding-left: 3%;
 }
 
