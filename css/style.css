@@ -152,13 +152,12 @@ h1 {
 .piccontainer {
     display: flex;
     justify-content: center;
-    aspect-ratio: 1;
-    width: 100px;
 }
 
 
 .piccontainer > img {
-    
+    width: 100px;
+    aspect-ratio: 1;
 }
 
 .yap {
