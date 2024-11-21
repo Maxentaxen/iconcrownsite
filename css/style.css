@@ -104,7 +104,7 @@ h1 {
 .content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 300px);
+    grid-template-rows: repeat(8, 20vh);
     grid-template-areas: 
     'hj hj hj'
     'in in ch1'
