@@ -221,3 +221,8 @@ button {
     background-size: cover;
     z-index: -1;
 }
+
+
+.prize {
+    font-weight: bold;
+}
