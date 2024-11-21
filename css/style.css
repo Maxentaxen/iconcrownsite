@@ -107,7 +107,7 @@ h1 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr, 1fr, 20%;
-    grid-template-rows: repeat(8, 10%);
+    grid-template-rows: repeat(8, 11%);
     grid-template-areas: 
     'hj hj hj'
     'in in ch1'
@@ -137,7 +137,7 @@ h1 {
     text-align: center;
     font-style: italic;
     font-weight: 100;
-    line-height: 2rem;
+    line-height: 1.5rem;
     font-size: 1rem;
 }
 
@@ -161,7 +161,7 @@ h1 {
 
 .yap {
     grid-area: sc;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     font-size: 1rem;
     padding-left: 3%;
 }
