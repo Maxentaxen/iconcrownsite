@@ -207,3 +207,12 @@ h1 {
 h4 {
     font-size: 3rem;
 }
+
+
+button {
+    background-color: transparent;
+    border: none;
+    color: (var(--textcolor));
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.3rem;
+}
