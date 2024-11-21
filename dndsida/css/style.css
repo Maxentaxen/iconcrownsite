@@ -1,0 +1,209 @@
+:root {
+    --bgcolor: rgba(50, 49, 47, 1);
+    --linecolor: rgba(255, 215, 0, 0.8);
+    --textcolor: #d5d5d5;
+    --primarycolor: #f3d3d3;
+    --secondarycolor: #ffffff;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Libre Baskerville", serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--textcolor);
+    background-image: url(/img/mona\ lovisa.png);
+}
+
+
+h1 {
+    text-align: center;
+    color: #ffd700;
+    font-size: 300%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+.topbar {
+    display: flex;
+    height: 70px;
+    background-image: linear-gradient(135deg, rgba(50, 49, 47, 0.8), rgba(0,0,0,0));
+    position: sticky;
+    top: 0;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    z-index: 10;
+
+}
+
+
+.topbar img {
+    width: 50px;
+    aspect-ratio: 1;
+    margin: auto 10px;
+}
+
+
+.topbar h2 {
+    font-size: 1rem;
+    text-align: left;
+    color: rgb(34, 34, 34);
+}
+
+.guilds {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+
+.content {
+    width: 100%;
+    height: 130vh;
+    background-image: linear-gradient(90deg, rgba(100, 100, 100, 1), rgba(100, 100, 100, 0.8), rgba(100, 100, 100, 0.8), transparent);
+}
+
+.buttons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.minibutton {
+    width: 20%;
+    background-color: rgba(120, 120, 120, 1);
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.minibutton > a {
+    text-decoration: none;
+    color: var(--textcolor);
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 300px);
+    grid-template-areas: 
+    'hj hj hj'
+    'in in ch1'
+    'sc sc ch2'
+    'sc sc ch3'
+    'sc sc ch4'
+    'sc sc ch5'
+    'sc sc ch6'
+    'bt bt bt';
+    overflow: hidden;
+}
+
+
+#ch1 {
+    grid-area: ch1;
+
+}
+
+
+#ch3 {
+    grid-area: ch3;
+}
+
+
+.charpic {
+    height: 100%;
+    position: relative;
+    
+}
+
+
+.hugoyap {
+    margin: auto;
+    grid-area: hj;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+
+.if {
+    margin-top: 0;
+    text-align: center;
+    grid-area: in;
+    font-size: 6rem;
+    color: #ffd700;
+}
+
+
+.piccontainer {
+    background-image: linear-gradient(90deg, transparent, transparent);
+    display: flex;
+    justify-content: center;
+}
+
+
+.yap {
+    grid-area: sc;
+    line-height: 2.8rem;
+    font-size: 2rem;
+    padding-left: 3%;
+}
+
+
+.join {
+    grid-area: bt;
+    display: flex;
+}
+
+
+.joinbutton {
+    background-color: orange;
+    margin: auto;
+    height: 60%;
+    width: 60%;
+    display: flex;
+}
+
+
+.joinbutton > a {
+    margin: auto;
+    font-size: 4rem;
+    color: red;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(var(--bgcolor), rgba(50, 49, 47, 0.8), transparent);
+    text-align: center;
+    line-height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    font-size: 3rem;
+}
