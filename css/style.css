@@ -22,7 +22,6 @@ body {
     background-repeat: no-repeat;
     color: var(--textcolor);
     background-image: url(/img/mona\ lovisa.png);
-    overflow:scroll;
 }
 
 
@@ -103,9 +102,10 @@ h1 {
 
 
 .content {
+    height: 200vh;
     display: grid;
     grid-template-columns: 40%, 40%, 100px;
-    grid-template-rows: repeat(8, 25%);
+    grid-template-rows: repeat(8, 250px);
     grid-template-areas: 
     'hj hj hj'
     'in in ch1'
@@ -158,8 +158,8 @@ h1 {
 
 .yap {
     grid-area: sc;
-    line-height: 2.8rem;
-    font-size: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
     padding-left: 3%;
 }
 
