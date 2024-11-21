@@ -22,7 +22,6 @@ body {
     background-repeat: no-repeat;
     color: var(--textcolor);
     background-image: url(/img/mona\ lovisa.png);
-    width: 100vw;
 }
 
 
@@ -153,8 +152,7 @@ h1 {
 .piccontainer {
     display: flex;
     justify-content: center;
-    width: auto;
-    height: auto;
+    aspect-ratio: 1;
 }
 
 
