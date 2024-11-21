@@ -157,6 +157,10 @@ h1 {
 }
 
 
+.piccontainer > img {
+    
+}
+
 .yap {
     grid-area: sc;
     line-height: 1.3rem;
