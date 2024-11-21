@@ -9,12 +9,6 @@
 
 html {
     scroll-behavior: smooth;
-    background-image: url(/img/final_10.jpg);
-    background-size: 100vw 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
 }
 
 
@@ -214,4 +208,16 @@ button {
     color: (var(--textcolor));
     font-family: "Libre Baskerville", serif;
     font-size: 1.3rem;
+}
+
+
+.body-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/final_10.jpg);
+    background-size: cover;
+    z-index: -1;
 }
