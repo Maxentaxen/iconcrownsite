@@ -22,6 +22,7 @@ body {
     background-repeat: no-repeat;
     color: var(--textcolor);
     background-image: url(/img/mona\ lovisa.png);
+    width: 100%;
 }
 
 
