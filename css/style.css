@@ -18,6 +18,10 @@ body {
     padding: 0;
     
     color: var(--textcolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 
@@ -29,15 +33,18 @@ h1 {
     margin: 0 auto;
     margin-bottom: 20px;
     -webkit-text-stroke: 1px red;
+    line-height: 3rem;
 }
 
 
 .topbar {
     display: flex;
+    width: 100%;
     height: 70px;
     background-image: linear-gradient(135deg, rgba(50, 49, 47, 0.8), rgba(0,0,0,0));
     position: sticky;
     top: 0;
+    left: 0;
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
@@ -64,14 +71,6 @@ h1 {
     width: 100%;
     margin-bottom: 50px;
 }
-
-
-.content {
-    width: 100%;
-    height: 130vh;
-    background-image: linear-gradient(90deg, rgba(100, 100, 100, 1), rgba(100, 100, 100, 0.8), rgba(100, 100, 100, 0.8), transparent);
-}
-
 
 .buttons {
     width: min(100%,360px);
@@ -136,6 +135,7 @@ h1 {
     font-weight: 100;
     line-height: 1.3rem;
     font-size: 100%;
+    text-shadow: 2px 2px black;
 }
 
 
@@ -166,6 +166,7 @@ h1 {
     line-height: 1.3rem;
     font-size: 1rem;
     padding-left: 3%;
+    text-shadow: 2px 2px #000000 ;
 }
 
 
@@ -233,3 +234,18 @@ button {
 .prize {
     font-weight: bold;
 }
+
+
+.wrapper {
+    width: 360px;
+    background-image: linear-gradient(90deg, rgba(100, 100, 100, 1), rgba(100, 100, 100, 0.8), rgba(100, 100, 100, 0.8), transparent);
+}
+
+.fill {
+    background-color: rgba(100, 100, 100, 1);
+    height: 200vh;
+    width: 1000px;
+    position: absolute;
+    top: calc(70px + (100vw)/2.103 + 50px + 20px + 50px + 6rem);
+    right: calc(50vw + 180px - 1px);
+}  
